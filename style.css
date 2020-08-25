@@ -1,0 +1,66 @@
+* {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto Mono', monospace;
+
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+    background: #ffdfa4;
+}
+
+.title {
+    text-align: center;
+    font: 700 1.875rem 'Roboto Mono', monospace;
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.search {
+    background: #000;
+    width: 100vw;
+    padding: 1.25rem;
+
+    text-align: center;
+    color: #fff;
+}
+
+.search button {
+    color: #fff;
+    background: transparent;
+    border: 0;
+    padding: .15rem;
+    cursor: pointer;
+}
+
+.search input {
+    width: 60%;
+    max-width: 300px;
+}
+
+.view-repository {
+    height: 60vh;
+    padding: 2.5rem;
+    overflow: auto;
+}
+
+.view-repository li{
+    padding-top: 0.4rem;
+}
+
+.view-repository a {
+    color: black;
+}
+footer {
+    padding-top: 1.25rem;
+}
