@@ -1,5 +1,1 @@
-meu primeiro sitema no GIT
-
-modificando o README e commitando
-
-testando branch master
+An  simple app that uses AJAX and api.github to download XML containing a user's git information, using JSON we print a list of the user's repositories on the screen and automatically creates a link to the repository directly on the git website

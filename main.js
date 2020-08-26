@@ -27,7 +27,7 @@ function listOfGitRepositoryOnView () {
         })
 }
 
-var myPromisse = function(gitUser) {
+let myPromisse = function(gitUser) {
     return new Promise(function(resolve, reject) {
         let xhr = new XMLHttpRequest()
         xhr.open('GET', `https://api.github.com/users/${gitUser}/repos`)
